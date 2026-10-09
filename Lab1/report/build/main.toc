@@ -5,32 +5,35 @@
 \contentsline {subsection}{\numberline {2.1}数据集说明}{1}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}数据文件关系验证}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}实验环境}{2}{subsection.2.3}%
-\contentsline {section}{\numberline {3}kNN 算法原理}{2}{section.3}%
-\contentsline {subsection}{\numberline {3.1}基本思想}{2}{subsection.3.1}%
+\contentsline {section}{\numberline {3}kNN 算法原理}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}基本思想}{3}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}距离度量}{3}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}k 值选择}{3}{subsection.3.3}%
-\contentsline {section}{\numberline {4}自写 kNN 与 LOO 实现}{3}{section.4}%
-\contentsline {subsection}{\numberline {4.1}数据读取与标签转换}{3}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}向量化距离计算}{3}{subsection.4.2}%
+\contentsline {section}{\numberline {4}自写 kNN 与 LOO 实现}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}数据读取与标签转换}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}向量化距离计算}{4}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}多数表决与平局规则}{4}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}留一法交叉验证}{4}{subsection.4.4}%
-\contentsline {section}{\numberline {5}样本可视化与数据检查}{5}{section.5}%
-\contentsline {subsection}{\numberline {5.1}导论示例代码运行情况}{5}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Weka 对比实验}{5}{section.6}%
-\contentsline {subsection}{\numberline {6.1}ARFF 转换}{5}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Weka 参数设置}{6}{subsection.6.2}%
-\contentsline {section}{\numberline {7}实验结果}{6}{section.7}%
-\contentsline {subsection}{\numberline {7.1}自写程序结果}{6}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Weka 结果}{7}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}自写程序与 Weka 对比}{8}{subsection.7.3}%
-\contentsline {section}{\numberline {8}实验结果验证与分析}{9}{section.8}%
-\contentsline {subsection}{\numberline {8.1}文档预期值与实际结果不一致}{9}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}按类别表现分析}{9}{subsection.8.2}%
-\contentsline {section}{\numberline {9}踩坑记录与解决方法}{9}{section.9}%
-\contentsline {subsection}{\numberline {9.1}数据准备阶段}{9}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}代码实现阶段}{10}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}结果验证阶段}{10}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Weka 对比阶段}{10}{subsection.9.4}%
-\contentsline {section}{\numberline {10}结论}{10}{section.10}%
-\contentsline {section}{参考资料}{11}{section*.11}%
-\contentsline {section}{\numberline {A}附录：本地运行输出}{11}{appendix.A}%
+\contentsline {subsection}{\numberline {4.4}留一法交叉验证}{5}{subsection.4.4}%
+\contentsline {section}{\numberline {5}样本可视化与数据检查}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}导论示例代码运行情况}{6}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Weka 对比实验}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}ARFF 转换}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Weka 参数设置}{8}{subsection.6.2}%
+\contentsline {section}{\numberline {7}实验结果}{9}{section.7}%
+\contentsline {subsection}{\numberline {7.1}自写程序结果}{9}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Weka 结果}{10}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}自写程序与 Weka 对比}{11}{subsection.7.3}%
+\contentsline {section}{\numberline {8}实验结果验证与分析}{12}{section.8}%
+\contentsline {subsection}{\numberline {8.1}文档预期值与实际结果不一致}{12}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}补充复核与排序敏感性}{12}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}按类别表现分析}{13}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}自写分类器的混淆矩阵}{14}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}错分类样本与形态分析}{17}{subsection.8.5}%
+\contentsline {section}{\numberline {9}踩坑记录与解决方法}{18}{section.9}%
+\contentsline {subsection}{\numberline {9.1}数据准备阶段}{18}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}代码实现阶段}{18}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}结果验证阶段}{18}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Weka 对比阶段}{18}{subsection.9.4}%
+\contentsline {section}{\numberline {10}结论}{19}{section.10}%
+\contentsline {section}{参考资料}{19}{section*.19}%
+\contentsline {section}{\numberline {A}附录：本地运行输出}{19}{appendix.A}%

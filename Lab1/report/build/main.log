@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.20)  9 OCT 2026 16:01
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.9.20)  9 OCT 2026 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -852,46 +852,55 @@ Package fontspec Info:
 [2] (d:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 206.
-
 
 [3]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 218.
+
 
 [4]
+
+[5]
 File: figures/sample_display.png Graphic file (type bmp)
 <figures/sample_display.png>
 
 
-[5]
-Underfull \hbox (badness 4872) in paragraph at lines 300--301
+[6]
+
+[7]
+Underfull \hbox (badness 4872) in paragraph at lines 345--346
 []\TU/SimSun(0)/m/n/12.045 其 中 \TU/lmr/m/n/12.045 256 \TU/SimSun(0)/m/n/12.045 
 个 像 素 属 性 声 明 为 \TU/lmtt/m/n/12.045 numeric\TU/SimSun(0)/m/n/12.045 ，|  类 别 属 性
  声 明 为 \TU/lmr/m/n/12.045 nominal \TU/SimSun(0)/m/n/12.045 类 型
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 300--301
+Underfull \hbox (badness 1281) in paragraph at lines 345--346
 \TU/lmtt/m/n/12.045 {0,1,2,3,4,5,6,7,8,9}\TU/SimSun(0)/m/n/12.045 。|  若 类 别 也 被
  当 成 \TU/lmr/m/n/12.045 numeric\TU/SimSun(0)/m/n/12.045 ，| \TU/lmr/m/n/12.045 W
 eka \TU/SimSun(0)/m/n/12.045 可 能 无 法 按 分 类 任 务
  []
 
+
+
+[8]
+File: figures/local_loo.png Graphic file (type bmp)
+<figures/local_loo.png>
 File: figures/weka_k1.png Graphic file (type bmp)
 <figures/weka_k1.png>
 
 
-[6]
+[9]
 File: figures/weka_k3.png Graphic file (type bmp)
 <figures/weka_k3.png>
 File: figures/weka_k5.png Graphic file (type bmp)
 <figures/weka_k5.png>
 
 
-[7]
+[10]
 
-[8]
-Underfull \hbox (badness 3668) in paragraph at lines 409--410
+[11]
+Underfull \hbox (badness 3668) in paragraph at lines 473--474
 []\TU/SimSun(0)/m/n/12.045 验 证 数 据：|  本 地 计 算 $[][][][][][][] [] [][][][]$ 的 \T
 U/lmr/m/n/12.045 MD5 \TU/SimSun(0)/m/n/12.045 为 \TU/lmtt/m/n/12.045 cb545d371d2
 ce14ec121
@@ -899,28 +908,66 @@ ce14ec121
 
 
 
-[9]
+[12]
+
+[13]
+File: figures/local_confusion_k1.png Graphic file (type bmp)
+<figures/local_confusion_k1.png>
+
+
+[14
+
+]
+File: figures/local_confusion_k3.png Graphic file (type bmp)
+<figures/local_confusion_k3.png>
+
+
+[15
+
+]
+File: figures/local_confusion_k5.png Graphic file (type bmp)
+<figures/local_confusion_k5.png>
+
+
+[16
+
+]
+File: figures/local_errors_k1.png Graphic file (type bmp)
+<figures/local_errors_k1.png>
+
+
+[17
+
+]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12.045> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 440.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 626.
 
 
-[10]
+[18]
+Underfull \hbox (badness 2469) in paragraph at lines 649--650
+[]\TU/lmr/m/n/12.045 NumPy. numpy.argsort Documentation. [][]$[][][][][] [] [] 
+[] [][][][][] [] [][][] [] [][][] [] [] [] [][] []
+ []
 
-[11] (build/main.aux)
+
+
+[19]
+
+[20] (build/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 83284B36E303AC72C2466FF59D252744;3933.
+(rerunfilecheck)             Checksum: EB6F45F16FCCF5FCFEA3A8200CF40910;4347.
  ) 
 Here is how much of TeX's memory you used:
- 20628 strings out of 473832
- 431697 string characters out of 5733158
- 1148327 words of memory out of 5000000
- 43362 multiletter control sequences out of 15000+600000
+ 20776 strings out of 473832
+ 438139 string characters out of 5733158
+ 1112752 words of memory out of 5000000
+ 43505 multiletter control sequences out of 15000+600000
  573449 words of font info for 148 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,12n,111p,1190b,1286s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,111p,1190b,1820s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on build/main.pdf (14 pages).
+Output written on build/main.pdf (23 pages).
