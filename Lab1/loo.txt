@@ -1,0 +1,5 @@
+(ml) PS E:\browser\machine_learning\Lab1> python exp1.py
+样本数: 1593 | 特征数(像素): 256 | 前10个标签: [0 0 0 0 0 0 0 0 0 0]
+k=1  LOO 准确率 = 0.9190
+k=3  LOO 准确率 = 0.9046
+k=5  LOO 准确率 = 0.9046
