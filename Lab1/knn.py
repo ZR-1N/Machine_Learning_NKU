@@ -2,7 +2,7 @@ import numpy as np
 
 import matplotlib.pyplot as plt #注意依赖库的安装
 
-raw = np.loadtxt('data/semeion_train.txt')
+raw = np.loadtxt('data/semeion.data')
 
 X, y = raw[:, :256], raw[:, 256:]
 
@@ -10,7 +10,6 @@ y = np.argmax(y, axis=1) # 独热 → 0~9 整数
 
 print('样本数:', len(X), '像素数:', X.shape[1])
 
-# 随机画 6 张图
 
 for i in range(6):
     plt.subplot(2,3,i+1)
