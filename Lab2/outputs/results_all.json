@@ -1,0 +1,342 @@
+{
+  "task1_metrics": [
+    {
+      "n_train": 96,
+      "n_test": 24,
+      "w": 2.5208678470900683,
+      "b": 6.719009462122102,
+      "train_mse": 3.375623765290097,
+      "test_mse": 3.4543862278700446
+    }
+  ],
+  "task1_predictions": [
+    {
+      "x": -12.0,
+      "prediction": -23.531404702958717
+    },
+    {
+      "x": -3.0,
+      "prediction": -0.8435940791481027
+    },
+    {
+      "x": 0.0,
+      "prediction": 6.719009462122102
+    },
+    {
+      "x": 4.5,
+      "prediction": 18.06291477402741
+    },
+    {
+      "x": 11.0,
+      "prediction": 34.448555780112855
+    }
+  ],
+  "task2_metrics": [
+    {
+      "lr": 0.05,
+      "epochs": 3000,
+      "n_train": 3919,
+      "n_test": 979,
+      "train_mse": 0.5627079481261213,
+      "test_mse": 0.5695005217461574,
+      "closed_form_train_mse": 0.5627079414881917,
+      "theta_distance": 0.0005519178295028609
+    }
+  ],
+  "task2_weights": [
+    {
+      "feature": "fixed acidity",
+      "standardized_weight": 0.03873544033207858,
+      "raw_weight": 0.04588029899449723
+    },
+    {
+      "feature": "volatile acidity",
+      "standardized_weight": -0.19457183010429482,
+      "raw_weight": -1.915371500355392
+    },
+    {
+      "feature": "citric acid",
+      "standardized_weight": -0.00728104644609987,
+      "raw_weight": -0.06081193154596462
+    },
+    {
+      "feature": "residual sugar",
+      "standardized_weight": 0.36582576565415664,
+      "raw_weight": 0.07119056274365851
+    },
+    {
+      "feature": "chlorides",
+      "standardized_weight": -0.0005849273787825686,
+      "raw_weight": -0.0268414772518606
+    },
+    {
+      "feature": "free sulfur dioxide",
+      "standardized_weight": 0.08527233354215845,
+      "raw_weight": 0.005114293754957319
+    },
+    {
+      "feature": "total sulfur dioxide",
+      "standardized_weight": -0.010099810209284929,
+      "raw_weight": -0.0002401427584656052
+    },
+    {
+      "feature": "density",
+      "standardized_weight": -0.37515847810372194,
+      "raw_weight": -124.18626181582874
+    },
+    {
+      "feature": "pH",
+      "standardized_weight": 0.09038560051205201,
+      "raw_weight": 0.6016605999223872
+    },
+    {
+      "feature": "sulphates",
+      "standardized_weight": 0.07363721270130212,
+      "raw_weight": 0.6484350542394721
+    },
+    {
+      "feature": "alcohol",
+      "standardized_weight": 0.28116873779372936,
+      "raw_weight": 0.22903933689861702
+    },
+    {
+      "feature": "intercept",
+      "standardized_weight": 5.871395764226175,
+      "raw_weight": 124.31391413600502
+    }
+  ],
+  "task3_metrics": [
+    {
+      "lr": 0.001,
+      "epochs": 3000,
+      "status": "stable",
+      "train_mse": 0.5658842141179035,
+      "test_mse": 0.5783761958236389,
+      "epoch_to_1e4": null,
+      "stable_lr_upper_bound": 0.3100158307155216
+    },
+    {
+      "lr": 0.01,
+      "epochs": 3000,
+      "status": "stable",
+      "train_mse": 0.5629427056016013,
+      "test_mse": 0.5719081762442739,
+      "epoch_to_1e4": null,
+      "stable_lr_upper_bound": 0.3100158307155216
+    },
+    {
+      "lr": 0.05,
+      "epochs": 3000,
+      "status": "stable",
+      "train_mse": 0.5627079481261213,
+      "test_mse": 0.5695005217461574,
+      "epoch_to_1e4": 796,
+      "stable_lr_upper_bound": 0.3100158307155216
+    },
+    {
+      "lr": 0.1,
+      "epochs": 3000,
+      "status": "stable",
+      "train_mse": 0.5627079414882051,
+      "test_mse": 0.5694885026597086,
+      "epoch_to_1e4": 398,
+      "stable_lr_upper_bound": 0.3100158307155216
+    },
+    {
+      "lr": 0.3,
+      "epochs": 3000,
+      "status": "stable",
+      "train_mse": 0.5627079414881918,
+      "test_mse": 0.5694884856044342,
+      "epoch_to_1e4": 132,
+      "stable_lr_upper_bound": 0.3100158307155216
+    },
+    {
+      "lr": 1.0,
+      "epochs": 15,
+      "status": "diverged",
+      "train_mse": 8.087373636658632e+20,
+      "test_mse": null,
+      "epoch_to_1e4": null,
+      "stable_lr_upper_bound": 0.3100158307155216
+    }
+  ],
+  "task4_metrics": [
+    {
+      "lam": 0,
+      "train_mse": 0.5627079414881917,
+      "validation_mse": 0.5767796015069526,
+      "test_mse": 0.5694884856044342,
+      "weight_norm": 0.6437615744496885,
+      "selected_by_validation": true
+    },
+    {
+      "lam": 0.01,
+      "train_mse": 0.5627079415353615,
+      "validation_mse": 0.5767801338804254,
+      "test_mse": 0.5694893196294086,
+      "weight_norm": 0.6437328569086215,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 0.1,
+      "train_mse": 0.5627079461958748,
+      "validation_mse": 0.5767849217574493,
+      "test_mse": 0.5694968186305636,
+      "weight_norm": 0.6434747658732314,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 1,
+      "train_mse": 0.5627084031235743,
+      "validation_mse": 0.5768324573020143,
+      "test_mse": 0.5695710991323539,
+      "weight_norm": 0.6409296863602215,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 10,
+      "train_mse": 0.5627463422749043,
+      "validation_mse": 0.5772753722489031,
+      "test_mse": 0.5702482672609763,
+      "weight_norm": 0.618631485209213,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 100,
+      "train_mse": 0.5639258032144562,
+      "validation_mse": 0.5799958590449303,
+      "test_mse": 0.5735629185268931,
+      "weight_norm": 0.5248799745868845,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 1000,
+      "train_mse": 0.5789983831560261,
+      "validation_mse": 0.601435944245404,
+      "test_mse": 0.5829243939054302,
+      "weight_norm": 0.36644431808870986,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 10000,
+      "train_mse": 0.6721475684523271,
+      "validation_mse": 0.7096978319542204,
+      "test_mse": 0.6619046931094713,
+      "weight_norm": 0.12880962963939313,
+      "selected_by_validation": false
+    }
+  ],
+  "task4_weights": [
+    {
+      "feature": "fixed acidity",
+      "weight": 0.03804590476911058
+    },
+    {
+      "feature": "volatile acidity",
+      "weight": -0.1945702708635903
+    },
+    {
+      "feature": "citric acid",
+      "weight": -0.007292459784790883
+    },
+    {
+      "feature": "residual sugar",
+      "weight": 0.3637637584945611
+    },
+    {
+      "feature": "chlorides",
+      "weight": -0.000746187557399509
+    },
+    {
+      "feature": "free sulfur dioxide",
+      "weight": 0.08537771767432348
+    },
+    {
+      "feature": "total sulfur dioxide",
+      "weight": -0.010250740214511818
+    },
+    {
+      "feature": "density",
+      "weight": -0.37220718690340254
+    },
+    {
+      "feature": "pH",
+      "weight": 0.08981921438471621
+    },
+    {
+      "feature": "sulphates",
+      "weight": 0.07345860694038116
+    },
+    {
+      "feature": "alcohol",
+      "weight": 0.2823325917874737
+    },
+    {
+      "feature": "intercept",
+      "weight": 5.871395764226174
+    }
+  ],
+  "task_ext_metrics": [
+    {
+      "degree": 1,
+      "features": 11,
+      "rank": 12,
+      "train_mse": 0.5627079414881917,
+      "validation_mse": 0.576779601506953,
+      "test_mse": 0.5694884856044342,
+      "condition": 12.166514171575784,
+      "selected_by_validation": false
+    },
+    {
+      "degree": 2,
+      "features": 77,
+      "rank": 78,
+      "train_mse": 0.492449779814479,
+      "validation_mse": 0.5224576805579029,
+      "test_mse": 0.619978082492394,
+      "condition": 222.2853471773497,
+      "selected_by_validation": true
+    },
+    {
+      "degree": 4,
+      "features": 1364,
+      "rank": 1365,
+      "train_mse": 0.23731819339888796,
+      "validation_mse": 10.464699817467212,
+      "test_mse": 421.42841522092885,
+      "condition": 16652201.724976612,
+      "selected_by_validation": false
+    }
+  ],
+  "task_ext_alcohol_metrics": [
+    {
+      "degree": 1,
+      "train_mse": 0.639723990496999,
+      "test_mse": 0.6182956945541546
+    },
+    {
+      "degree": 2,
+      "train_mse": 0.6374253187927676,
+      "test_mse": 0.6165387761896283
+    },
+    {
+      "degree": 4,
+      "train_mse": 0.6323647242973006,
+      "test_mse": 0.6153248400629082
+    }
+  ],
+  "environment": {
+    "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+    "executable": "D:\\anaconda\\envs\\ml\\python.exe",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "data_sha256": {
+      "dataset_regression.csv": "56f9a23c678ab556ba02a3140d03288bf3b58e89843cd7c75b520979ac4a4ec9",
+      "poly_demo.csv": "e8b654356220d166531a1b3b9c4e3f67d60c27bfeff4b062bad0aa0df72bdd01",
+      "winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "task3_metrics": [
+    {
+      "lr": 0.001,
+      "epochs": 3000,
+      "status": "stable",
+      "train_mse": 0.5658842141179035,
+      "test_mse": 0.5783761958236389,
+      "epoch_to_1e4": null,
+      "stable_lr_upper_bound": 0.3100158307155216
+    },
+    {
+      "lr": 0.01,
+      "epochs": 3000,
+      "status": "stable",
+      "train_mse": 0.5629427056016013,
+      "test_mse": 0.5719081762442739,
+      "epoch_to_1e4": null,
+      "stable_lr_upper_bound": 0.3100158307155216
+    },
+    {
+      "lr": 0.05,
+      "epochs": 3000,
+      "status": "stable",
+      "train_mse": 0.5627079481261213,
+      "test_mse": 0.5695005217461574,
+      "epoch_to_1e4": 796,
+      "stable_lr_upper_bound": 0.3100158307155216
+    },
+    {
+      "lr": 0.1,
+      "epochs": 3000,
+      "status": "stable",
+      "train_mse": 0.5627079414882051,
+      "test_mse": 0.5694885026597086,
+      "epoch_to_1e4": 398,
+      "stable_lr_upper_bound": 0.3100158307155216
+    },
+    {
+      "lr": 0.3,
+      "epochs": 3000,
+      "status": "stable",
+      "train_mse": 0.5627079414881918,
+      "test_mse": 0.5694884856044342,
+      "epoch_to_1e4": 132,
+      "stable_lr_upper_bound": 0.3100158307155216
+    },
+    {
+      "lr": 1.0,
+      "epochs": 15,
+      "status": "diverged",
+      "train_mse": 8.087373636658632e+20,
+      "test_mse": null,
+      "epoch_to_1e4": null,
+      "stable_lr_upper_bound": 0.3100158307155216
+    }
+  ],
+  "environment": {
+    "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+    "executable": "D:\\anaconda\\envs\\ml\\python.exe",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "data_sha256": {
+      "dataset_regression.csv": "56f9a23c678ab556ba02a3140d03288bf3b58e89843cd7c75b520979ac4a4ec9",
+      "poly_demo.csv": "e8b654356220d166531a1b3b9c4e3f67d60c27bfeff4b062bad0aa0df72bdd01",
+      "winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836"
+    }
+  }
+}

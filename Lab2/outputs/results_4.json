@@ -1,0 +1,131 @@
+{
+  "task4_metrics": [
+    {
+      "lam": 0,
+      "train_mse": 0.5627079414881917,
+      "validation_mse": 0.5767796015069526,
+      "test_mse": 0.5694884856044342,
+      "weight_norm": 0.6437615744496885,
+      "selected_by_validation": true
+    },
+    {
+      "lam": 0.01,
+      "train_mse": 0.5627079415353615,
+      "validation_mse": 0.5767801338804254,
+      "test_mse": 0.5694893196294086,
+      "weight_norm": 0.6437328569086215,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 0.1,
+      "train_mse": 0.5627079461958748,
+      "validation_mse": 0.5767849217574493,
+      "test_mse": 0.5694968186305636,
+      "weight_norm": 0.6434747658732314,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 1,
+      "train_mse": 0.5627084031235743,
+      "validation_mse": 0.5768324573020143,
+      "test_mse": 0.5695710991323539,
+      "weight_norm": 0.6409296863602215,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 10,
+      "train_mse": 0.5627463422749043,
+      "validation_mse": 0.5772753722489031,
+      "test_mse": 0.5702482672609763,
+      "weight_norm": 0.618631485209213,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 100,
+      "train_mse": 0.5639258032144562,
+      "validation_mse": 0.5799958590449303,
+      "test_mse": 0.5735629185268931,
+      "weight_norm": 0.5248799745868845,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 1000,
+      "train_mse": 0.5789983831560261,
+      "validation_mse": 0.601435944245404,
+      "test_mse": 0.5829243939054302,
+      "weight_norm": 0.36644431808870986,
+      "selected_by_validation": false
+    },
+    {
+      "lam": 10000,
+      "train_mse": 0.6721475684523271,
+      "validation_mse": 0.7096978319542204,
+      "test_mse": 0.6619046931094713,
+      "weight_norm": 0.12880962963939313,
+      "selected_by_validation": false
+    }
+  ],
+  "task4_weights": [
+    {
+      "feature": "fixed acidity",
+      "weight": 0.03804590476911058
+    },
+    {
+      "feature": "volatile acidity",
+      "weight": -0.1945702708635903
+    },
+    {
+      "feature": "citric acid",
+      "weight": -0.007292459784790883
+    },
+    {
+      "feature": "residual sugar",
+      "weight": 0.3637637584945611
+    },
+    {
+      "feature": "chlorides",
+      "weight": -0.000746187557399509
+    },
+    {
+      "feature": "free sulfur dioxide",
+      "weight": 0.08537771767432348
+    },
+    {
+      "feature": "total sulfur dioxide",
+      "weight": -0.010250740214511818
+    },
+    {
+      "feature": "density",
+      "weight": -0.37220718690340254
+    },
+    {
+      "feature": "pH",
+      "weight": 0.08981921438471621
+    },
+    {
+      "feature": "sulphates",
+      "weight": 0.07345860694038116
+    },
+    {
+      "feature": "alcohol",
+      "weight": 0.2823325917874737
+    },
+    {
+      "feature": "intercept",
+      "weight": 5.871395764226174
+    }
+  ],
+  "environment": {
+    "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+    "executable": "D:\\anaconda\\envs\\ml\\python.exe",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "data_sha256": {
+      "dataset_regression.csv": "56f9a23c678ab556ba02a3140d03288bf3b58e89843cd7c75b520979ac4a4ec9",
+      "poly_demo.csv": "e8b654356220d166531a1b3b9c4e3f67d60c27bfeff4b062bad0aa0df72bdd01",
+      "winequality-white.csv": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836"
+    }
+  }
+}

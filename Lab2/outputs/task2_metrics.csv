@@ -1,0 +1,2 @@
+﻿lr,epochs,n_train,n_test,train_mse,test_mse,closed_form_train_mse,theta_distance
+0.05,3000,3919,979,0.5627079481261213,0.5695005217461574,0.5627079414881917,0.0005519178295028609

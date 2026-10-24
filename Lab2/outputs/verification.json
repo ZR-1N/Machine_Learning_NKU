@@ -1,0 +1,10 @@
+{
+  "numerical_checks": "passed",
+  "wine_rows": 4898,
+  "wine_features": 11,
+  "wine_missing_values": 0,
+  "wine_duplicate_rows": 937,
+  "test_rows_identical_to_a_training_row": 286,
+  "split": "random row split as required; duplicate rows retained",
+  "regression_rows": 120
+}

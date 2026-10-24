@@ -1,0 +1,29 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Logs, editor backups and operating system metadata
+*.log
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+__MACOSX/
+._*
+
+# Report sources, build products, previews and review notes
+# Keep the final report at Lab*/实验报告.pdf.
+/Lab*/report/
+/Lab*/output/pdf/
+/Lab2/report.md
+/Lab2/build_report.py
+/Lab2/实验2回归分析实验报告_已完成.docx
+/Lab2/核查说明.md
+
+# Locally generated submission archives
+/Lab*/*.zip
