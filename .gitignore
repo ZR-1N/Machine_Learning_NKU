@@ -27,3 +27,9 @@ __MACOSX/
 
 # Locally generated submission archives
 /Lab*/*.zip
+
+# Lab 3 report workspace and dense visualization grids
+/lab3/report/
+/lab3/*.zip
+/lab3/outputs/*_density.csv
+/lab3/核查说明.md

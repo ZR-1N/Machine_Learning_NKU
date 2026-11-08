@@ -1,0 +1,17 @@
+﻿dataset,task,method,evaluation,n,errors,error_rate
+high,1,MAP,full_fit,500,5,0.01
+high,1,LRT,full_fit,500,5,0.01
+high,2,KDE-LRT,full_fit,500,0,0.0
+high,2,KDE-LRT,holdout,150,2,0.013333333333333334
+high,4,Gaussian-full,train,350,2,0.005714285714285714
+high,4,Gaussian-full,test,150,3,0.02
+high,4,Gaussian-diag,train,350,3,0.008571428571428572
+high,4,Gaussian-diag,test,150,4,0.02666666666666667
+low,1,MAP,full_fit,500,132,0.264
+low,1,LRT,full_fit,500,132,0.264
+low,2,KDE-LRT,full_fit,500,34,0.068
+low,2,KDE-LRT,holdout,150,13,0.08666666666666667
+low,4,Gaussian-full,train,350,28,0.08
+low,4,Gaussian-full,test,150,15,0.1
+low,4,Gaussian-diag,train,350,85,0.24285714285714285
+low,4,Gaussian-diag,test,150,46,0.30666666666666664

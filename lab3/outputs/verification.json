@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "Full Gaussian log density agrees with scipy; posterior sums to one",
+      "passed": true
+    },
+    {
+      "name": "Normalized Gaussian KDE agrees with sklearn at all five bandwidths",
+      "passed": true
+    },
+    {
+      "name": "KDE normalization integral",
+      "passed": true,
+      "integral": 0.9999999999999988
+    },
+    {
+      "name": "Log-space prediction remains finite for distant queries",
+      "passed": true
+    },
+    {
+      "name": "kNN density matches independent neighbor search; zero-radius and exclusion semantics",
+      "passed": true
+    },
+    {
+      "name": "MAP and LRT handle ties and nonconsecutive labels consistently",
+      "passed": true
+    },
+    {
+      "name": "Regularized covariance supports rank-deficient samples",
+      "passed": true
+    },
+    {
+      "name": "Invalid bandwidth and k rejected",
+      "passed": true
+    },
+    {
+      "name": "high: saved data, Gaussian predictions and all 25 CV errors independently verified",
+      "passed": true
+    },
+    {
+      "name": "low: saved data, Gaussian predictions and all 25 CV errors independently verified",
+      "passed": true
+    }
+  ],
+  "count": 10
+}
